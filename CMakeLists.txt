@@ -1,7 +1,7 @@
 # CMakeLists.txt: top level CMakeLists.txt for project terev
 
 # set minimum CMake version
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.7)
 
 # This is your project statement. You should always list languages;
 # Listing the version is nice here since it sets lots of useful variables
