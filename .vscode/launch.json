@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "terev",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/bin/coolcppbin",
+            "program": "${workspaceFolder}/build/bin/terev",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
