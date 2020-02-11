@@ -28,16 +28,9 @@ add_subdirectory(lib)
 add_subdirectory(bin)
 add_subdirectory(test)
 
-# add the executable
-
-# add_executable(terev /home/ofenloch/workspaces/cpp/terev/bin/source/main.cpp)
-
-# add test executable
-# add_executable(terevTest /home/ofenloch/workspaces/cpp/terev/test/source/main.cpp)
-
+include(CTest)
 enable_testing()
 add_test(NAME terevTest COMMAND MyExample)
-
 
 # add your own stuff here
 message("The project's name is ${PROJECT_NAME}")
